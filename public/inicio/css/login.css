@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+    color: #fff;
+}
+
+body {
+    height: 100vh;
+    background-image: url("/img/fondo2.jpeg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+}
+
+::-webkit-input-placeholder {
+    color: #eee;
+}
+
+.wrapper {
+    position: relative;
+    width: 800px;
+    height: 65vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border: 3px solid #409797;
+    border-radius: 20px; /* Agregamos bordes circulares */
+    box-shadow: 0 0 100px 0 #00a6bc;
+    margin: 7%;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+    margin: 20px; /* Añadimos márgenes al formulario */
+}
+
+.title {
+    font-size: 35px;
+    margin-bottom: 10px; /* Espaciado inferior */
+}
+
+.inp {
+    padding-bottom: 10px;
+    border-bottom: 2px solid #eee;
+    margin: 10px 0; /* Espaciado superior e inferior */
+}
+
+.input {
+    border: none;
+    outline: none;
+    background: none;
+    width: 260px;
+    margin: 10px 0; /* Espaciado superior e inferior */
+    padding-right: 10px;
+    font-size: 17px;
+    color: #0ef;
+}
+
+.submit {
+    border: none;
+    outline: none;
+    width: 288px;
+    margin: 10px 0; /* Espaciado superior e inferior */
+    padding: 10px 0;
+    font-size: 20px;
+    border-radius: 40px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    background: linear-gradient(45deg, rgb(113, 146, 146),rgba(19, 186, 216, 0.712));
+}
+
+
+.titu{
+    color: rgb(57, 57, 59);
+}
+
+
+.footer {
+    margin: 30px 0; /* Espaciado superior e inferior */
+    letter-spacing: 0.5px;
+    font-size: 14px;
+}
+
+.link {
+    color: #0ef;
+    text-decoration: none;
+}
+
+.banner {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 450px;
+    height: 100%;
+    background: linear-gradient(to right, rgb(224, 230, 231), rgba(31, 204, 204, 0.719));
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 60% 100%);
+    padding-right: 70px;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    align-items: flex-end;
+
+    
+    
+}
+.imaalex img {
+    margin: 35px;
+    width: 50%;
+    height: auto;
+    
+}
+
+.wel_text {
+    font-size: 40px;
+    margin-top: -50px;
+    line-height: 50px; 
+}
+
+.para {
+    margin-top: 10px;
+    font-size: 18px; 
+    line-height: 24px;
+    letter-spacing: 1px;
+    color: black;
+}
+
+.custom-alert {
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+    color: #721c24;
+    padding: .75rem 1.25rem;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    margin-top: 1rem;
+}
